@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c6c4c4;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 75px;
+}
+.card p{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+.card{
+    width: 275px;
+    height: 325px;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
