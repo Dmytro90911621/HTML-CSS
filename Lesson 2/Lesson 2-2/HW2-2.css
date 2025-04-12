@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+.flex{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #c6c4c4;
+
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #bd0a0a;
+    transition: 2s;
+}
+.square:hover{
+    border-radius: 50%;
+    background-color: #aaa9a9;
+    transition: 2s;
+}
