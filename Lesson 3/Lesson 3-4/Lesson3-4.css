@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*....header....*/
+.active-link{
+    color: #6fd51c;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    font-family: "Orbitron", sans-serif;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header div ul{
+    display: flex;
+    gap: 20px;
+}
+header nav a{
+    color: #aaa9a9;
+    font-size: 20px;
+}
+/*....main....*/
+main {
+    height: 90vh;
+    background-image: url("https://99px.ru/sstorage/53/2017/01/tmb_190061_2728.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 55px;
+}
+main p{
+    font-size: 20px;
+
+}
+main h1{
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+main button{
+    width: 170px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #111212;
+    border: none;
+    margin-top: 20px;
+    transition: 3s;
+}
+main button:hover{
+    color: #1bdc6f;
+    transform: scale(1.1);
+    transition: 3s;
+}
