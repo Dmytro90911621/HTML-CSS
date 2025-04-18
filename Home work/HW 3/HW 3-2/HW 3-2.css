@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+header{
+    background-color: pink;
+    color: #090909;
+    gap: 20px;
+}
+main{
+    background-color: #111212;
+    color: white;
+    gap: 20px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+
+p {
+    align-items: center;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    width: 85%;
+}
+/*header{
+    background-color:pink;
+    color:black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*main{
+    background-color: black;
+    color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2, p{
+    align-items: center;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
