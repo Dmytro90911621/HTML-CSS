@@ -1,0 +1,39 @@
+body{
+    margin: 20px;
+}
+header{
+    height: 60vh;
+    background-color: #3f77fb;
+
+}
+
+
+section{
+    height: 60vh;
+    width: 32%;
+    background-color: #062c87;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 90vh;
+    background-color: #3f77fb;
+}
+
+header, section, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 85%;
+}
