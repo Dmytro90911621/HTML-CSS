@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none
+}
+body{
+    background-image: url('https://st2.depositphotos.com/1265075/7365/i/450/depositphotos_73656201-stock-photo-web-contact-us-icons-cubes.jpg');
+    background-size: cover;
+
+}
+
+.active-link {
+    color: #6fd51c;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header div ul{
+    display: flex;
+    gap: 20px;
+}
+
+header nav a{
+    color: #aaa9a9;
+    font-size: 20px;
+}
