@@ -19,7 +19,7 @@ header{
     font-family: "Orbitron", sans-serif;
 }
 header nav ul{
-    display: flex;
+    display: flex; 
     gap: 20px;
 }
 header div{

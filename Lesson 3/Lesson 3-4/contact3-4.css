@@ -7,11 +7,7 @@
     text-decoration: none;
     list-style-type: none
 }
-body{
-    background-image: url('https://st2.depositphotos.com/1265075/7365/i/450/depositphotos_73656201-stock-photo-web-contact-us-icons-cubes.jpg');
-    background-size: cover;
 
-}
 
 .active-link {
     color: #6fd51c;
@@ -45,3 +41,23 @@ header nav a{
     color: #aaa9a9;
     font-size: 20px;
 }
+
+
+
+
+main {
+    height: 90vh;
+    background-image: url("https://st2.depositphotos.com/1265075/7365/i/450/depositphotos_73656201-stock-photo-web-contact-us-icons-cubes.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 55px;
+    gap: 20px;
+}
+
+ul{
+    list-style-type:disc;
+}
+
