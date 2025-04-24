@@ -1,0 +1,11 @@
+*{
+    margin:0;
+}
+header, footer{
+    height:22vh;
+    background: rgba(217, 217, 217, 1)
+}
+main{
+    height:56vh;
+    background: rgba(164, 164, 164, 1)
+}
