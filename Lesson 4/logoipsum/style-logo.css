@@ -126,9 +126,7 @@ header nav ul a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 68px;
-    box-sizing: border-box
-
+    box-sizing: border-box;
 }
 .index div{
     display: flex;
@@ -169,7 +167,7 @@ header nav ul a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 68px;
+    padding-top: 83px;
 }
 .metrics div{
     display: flex;
@@ -201,6 +199,103 @@ header nav ul a{
     font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: -0.531px;
 }
+
+
+/* ********** cards ********** */
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 159px;
+    box-sizing: border-box;
+    gap: 75px;
+}
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card h2 {
+        color: #19191B;
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px; /* 150% */
+        letter-spacing: -0.75px;
+    }
+
+    .card p {
+        color: #696871;
+        text-align: center;
+        font-family: Mulish, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.5px;
+        width: 307px;
+    }
+
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .calculator h2 {
+        color: #19191B;
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; /* 150% */
+        letter-spacing: -0.75px;
+    }
+
+    .calculator p {
+        color: #696871;
+        text-align: center;
+        font-family: Mulish, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.5px;
+        width: 307px;
+    }
+
+    .audit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .audit h2 {
+        color: #19191B;
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px; /* 150% */
+        letter-spacing: -0.75px;
+    }
+
+    .audit p {
+        color: #696871;
+        text-align: center;
+        font-family: Mulish, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.5px;
+        width: 307px;
+    }
