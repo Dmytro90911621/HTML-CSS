@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+header{
+    height: 4.476vh;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 9.937vh;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+address{
+    height: 11.907vh;
+    background: #AFA9A9;
+}
+
+main{
+    display: flex;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    height: 73.679vh;
+    width: 59.375vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside{
+    height: 29.955vh;
+    width: 26.852vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rectangle{
+    background: #A4A4A4;
+}
+.top{
+    height: 39.839vh;
+    width: 40.625vw;
+    background: #7F7A7A;
+}
+.bottom{
+    height: 33.841vh;
+    width: 40.625vw;
+    background: #615050;
+}
