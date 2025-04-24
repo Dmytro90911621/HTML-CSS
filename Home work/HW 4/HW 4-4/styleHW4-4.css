@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+header{
+    height: 4.476vh;
+    background: #D9D9D9;
+}
+footer{
+    height: 9.937vh;
+    background: #D9D9D9;
+}
+main {
+    display: flex;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    justify-content: center;
+}
+.left_one{
+    height: 85.586vh;
+    width: 28.819vw;
+    background: #A4A4A4;
+
+}
+.left_two{
+    height: 85.586vh;
+    width: 30.556vw;
+    background: #C1C1C1;
+}
+
+.top{
+    height: 42.793vh;
+    width: 40.625vw;
+    background: #7F7A7A;
+}
+.bottom{
+    height: 42.793vh;
+    width: 40.625vw;
+    background: #6B6161;
+}
