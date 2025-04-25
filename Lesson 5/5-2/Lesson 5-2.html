@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favicon</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<style>
+.pink_box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 100px auto 0 auto;
+    animation: pink 4s linear 5;
+}
+@keyframes pink{
+    from{transform: scale(1.5)rotate(60deg);}
+
+    55%{border-radius: 35%;
+    transform: rotate(-60deg);}
+
+    to{transform: scale(1) rotate(0deg);
+    background-color: #6fd51c}
+}
+</style>
+</head>
+<body>
+<div class="pink_box"></div>
+</body>
+</html>
