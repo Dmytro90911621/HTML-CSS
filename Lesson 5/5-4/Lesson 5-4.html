@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Order</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 45px;
+        }
+        .card{
+            width: 300px;
+            height: 300px;
+        }
+        .yellow{
+            background-color: yellow;
+            order: -2;
+        }
+        .blue{
+            background-color: blue;
+            order: -1;
+        }
+        .green{
+            background-color: green;
+        }
+        .red{
+            background-color: red;
+            order: +2;
+        }
+        .purple{
+            background-color: purple;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="card yellow"></div>
+    <div class="card red"></div>
+    <div class="card blue"></div>
+    <div class="card green"></div>
+    <div class="card purple"></div>
+
+</div>
+</body>
+</html>
