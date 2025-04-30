@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+  <style>
+    body{
+      background-color: #1aaeae;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        margin-top: 250px;
+    }
+
+    .square{
+      width: 250px;
+      height: 250px;
+
+      background-color: #1d9f56;
+      animation: square_one 4s ease-out infinite alternate;
+    }
+@keyframes square_one {
+    from {
+        transform: translateY(120px) scale(0.5)rotate(-360deg);
+        transition: 4s;
+
+    }
+    50%{
+        transform: translateY(-120px) scale(1.5);rotate(360deg);
+        transition: 4s;
+        background-color: #73ff00;
+    }
+
+    to {
+        background-color: red;
+        border-radius: 50%;
+        transform: translateY(120px) scale(0.5)rotate(360deg);
+        transition: 4s;
+    }
+}
+
+
+
+  </style>
+</head>
+<body>
+<div class="square"></div>
+</body>
+</html>
