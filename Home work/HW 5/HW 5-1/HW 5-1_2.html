@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Анімація 2</title>
+  <style>
+    .circle {
+      display: block;
+     margin: 250px auto;
+      animation: image 9s ease infinite;
+    }
+   @keyframes image {
+     from {
+       transform: translateX(10px);
+       transition: ease-out;
+     }
+     to {
+       transform: translateX(1000px);
+     }
+   }
+
+
+
+  </style>
 </head>
 <body>
-<div class="circle"></div>
+<div class="circle">
+  <img src="train.gif" alt="train">
+</div>
+
 </body>
 </html>
