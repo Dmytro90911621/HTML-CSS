@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Комбінаторні селектори</title>
+    <style>
+        /*h1+p стилізує наступний елемент після н1*/
+        h1~p{/*стилізує всі елементи після р1*/
+            color: aqua;
+        }
+        div p span {
+            color: #bd0a0a;
+        }
+        div>p>span/*дочірній селектор*/ {
+            color: #3cca0c;
+        }
+div>div>p {
+    color: #a7c5a7;
+}
+    </style>
+</head>
+<body>
+<h1>Lorem ipsum dolor sit amet.</h1>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum <span>dolor</span> sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+</div>
+</body>
+</html>
