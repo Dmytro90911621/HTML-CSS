@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Псевдокласи та псевдоелементи</title>
+    <style>
+        div :first-child {/*(псевдоклас)стилізує перший елемент, після div обовязково попуск а потім :  */
+            color: #e40808;
+        }
+        div p::first-letter{/*(псевдоелемент)стилізує першу літеру*/
+            color: #0fc142;
+
+        }
+        /*div p::first-line { /*змінює(стилізує) першу лінію контенту(тобто перший рядок , а з наступного буде колір стандартний)
+            color: #d000ff;
+        }*/
+        div p:last-of-type{/*стилізує останній дочірній елемент серед параграфів*/
+            color: #e1e112;
+        }
+        ul li:nth-child(2n+6){/* стилізую кожен елемент який ми вказуємо(рядок). n-стилізує все*/
+            list-style: none;
+            color: #6fd51c;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet, animi, assumenda aut dicta dolores ea eligendi, et eum ipsum iste omnis perferendis placeat ullam voluptatibus. Enim ex, exercitationem itaque nihil quas quisquam recusandae sequi sunt ut vero! Assumenda doloribus dolorum expedita illum nam quo rerum sint velit! Architecto, eligendi, et. Amet in repellat suscipit?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <span>Lorem ipsum dolor sit amet.</span>
+</div>
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+</ul>
+</body>
+</html>
