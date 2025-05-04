@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Псевдоелементи</title>
+    <style>
+        body{
+            margin: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 100px;
+            background-color: #cab992;
+
+        }
+        button:hover{
+            background-color: #e1e112;
+        }
+        button:active{/*змінює колір,розмір... при кліку*/
+            background-color: #73ff00;
+            font-size: 20px;
+        }
+        a:link{/*стилізує не відвіданий сайт*/
+            text-decoration: none;
+            color: #cc1c1c;
+        }
+        a:visited{/*стилізує відвіданий сайт*/
+            color: #0ce8cf;
+        }
+
+li::marker {/*змінює сам маркер колір,розмір ...*/
+    color: #1aaeae;
+}
+li{
+    color: #d000ff;
+}
+p::selection {
+    background-color: rgb(255, 0, 0);
+    color: #73ff00;
+}
+    </style>
+</head>
+<body>
+<button>Hello</button>
+
+<a href="https://developer.mozilla.org/ru/docs/Web/CSS/border">1</a>
+<a href="https://tpverstak.ru/flex-cheatsheet">2</a>
+<a href="https://advermedia.ua/blog/spetssimvoly-html/">3</a>
+<a href="https://cssgradient.io/">4</a>
+
+<ul>
+    <li>Lorem ipsum.</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor sit.</li>
+    <li>Lorem ipsum dolor sit amet.</li>
+</ul>
+<p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
