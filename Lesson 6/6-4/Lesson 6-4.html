@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>After</title>
+    <style>
+        ul li::after {
+            content: "!!!";
+            color: red;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        ul li::before {
+            display: inline-block;/*рядковий елемент*/ /*вказуємо для того щоб */
+            background-size: cover;
+            content: "";/*залишаємо порожнім для того щоб вставити картинку*/
+            margin-right: 10px;/*вказуємо для відступу від рядка*/
+            width: 16px;
+            height: 16px;
+            background-image: url("https://img.icons8.com/arcade/64/homer-simpson.png")
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+    <li>Accusantium aperiam, dolore dolorem est id suscipit!</li>
+    <li>Aperiam at autem earum officiis omnis quae!</li>
+    <li>Accusamus aliquam explicabo porro sed soluta ullam.</li>
+    <li>Aliquam cupiditate enim, eum nam nostrum suscipit.</li>
+    <li>Assumenda consectetur cupiditate facere possimus provident, repellat!</li>
+    <li>Dolore eius enim eos quas veritatis voluptate.</li>
+    <li>Atque dolorum fugit modi suscipit, tempora voluptate.</li>
+    <li>Accusamus cum est libero nisi provident vel.</li>
+    <li>Consequuntur deserunt doloribus explicabo magnam repellat vero.</li>
+</ul>
+</body>
+</html>
