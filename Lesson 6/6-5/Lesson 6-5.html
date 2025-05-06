@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма реєстрації</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        form sup{
+            color: red;
+        }
+       /* input{ можемо вказати якщо розмір вікна нам не підходить
+            font-size: 150px;
+        }*/
+        textarea {
+            resize: none;/* забороняє зміну розміру (фіксований розмір)*/
+        }
+        .action{
+            width: 350px;
+            border-radius: 25px;
+            border: 4px solid lightgrey;
+            padding: 50px;
+        }
+            input[type="text"]{
+                background: #aaa9a9;
+                border-radius: 5px;
+                border: 4px solid lightgrey;
+                color: #6fd51c;
+                font-family:sans-serif;
+
+        }
+            input[type="text"]::placeholder{
+                color: #cc1c1c;
+            }
+            input[type="text"]:focus{
+                outline: 4px dashed;
+            }
+    </style>
+</head>
+<body>
+<form class="action">
+    <label for="name">додайте ім'я</label>
+    <input type="text" name="name" placeholder="Yakov" id="name" required><sup>*</sup>
+
+    <label for="email">Введіть свій email</label>
+    <input type="email" name="email" placeholder="email" id="email" required><sup>*</sup>
+
+    <label for="password">Введіть свій password</label>
+    <input type="password" name="password" placeholder="password" id="password" required><sup>*</sup>
+
+
+    <label for="age">Введіть свій вік</label>
+    <input type="number" name="age" placeholder="age" id="age" min="18" max="99" >
+
+    <label>Стать</label><!--Перший варіант ми огортаємо в середину label, radio позначає кружечками вибір-->
+    <label><input type="radio" name="gender" value="male">Чоловіча</label>
+    <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+    <label>
+        <input type="checkbox" name="news">Підпишись на новини
+    </label>
+
+    <label for="country">Країна</label>
+    <select id="country">
+        <option label="">Оберіть країну</option>
+        <option label="ua">Ukraine</option>
+        <option label="usa">USA</option>
+        <option label="kr">Korea</option>
+        <option label="ca">Canada</option>
+    </select>
+
+        <label for="phone"></label>
+        <select id="phone">
+            <optgroup label="Apple">
+                <option value="x">Iphone X</option>
+                <option value="xs">Iphone XS</option>
+                <option value="pro max">Iphone pro max</option>
+            </optgroup>
+            <optgroup label="Samsung">
+                <option value="21s">Samsung 21s</option>
+                <option value="22s">Samsung 22s</option>
+                <option value="22 pro">Samsung 22 pro</option>
+            </optgroup>
+        </select>
+        
+<label for="comment">Comments</label>
+    <textarea id="comment" rows="4" cols="50">
+
+    </textarea>
+    <div>
+        <input type="submit" value="Надіслати">
+        <input type="reset" value="Скинути">
+    </div>
+
+</form>
+</body>
+</html>
