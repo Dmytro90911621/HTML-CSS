@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #067e7a;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+.login{
+    background-color: #c6c4c4;
+    width: 550px;
+    height: 450px;
+}
+header{
+    margin: 0;
+    background-color: #067e7a;
+}
