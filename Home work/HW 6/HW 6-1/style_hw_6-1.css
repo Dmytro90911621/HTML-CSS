@@ -1,21 +1,45 @@
 body{
-    margin: 0;
-    padding: 0;
     background-color: #067e7a;
-    display: inline-flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 120px;
 
 
 
 }
 .login{
-    background-color: #c6c4c4;
-    width: 550px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 650px;
     height: 450px;
+    border: 4px ;
+
 }
-header{
-    margin: 0;
-    background-color: #067e7a;
+.text_h1{
+    background-color: #c6c4c4;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+label{
+    width: 200px;
 }
