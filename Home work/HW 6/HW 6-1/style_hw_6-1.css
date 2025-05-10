@@ -1,31 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body{
     margin: 0;
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #008b8b;
-}
-
-.box{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    background-color: #008b8b;
+    height: 100vh;
+}
+
+.box{
     background-color: #ffffff;
     border-radius: 10px;
-    width: 750px;
+    width: 700px;
     height: 450px;
-    margin-top: 150px;
 
 }
-.box>div{
+.box_h1{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30%;
     width:100%;
     background-color: #e9f3f3;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
     border-radius: 10px;
+
 }
 .box>form{
     height: 80%;
