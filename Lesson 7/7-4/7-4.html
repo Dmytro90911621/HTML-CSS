@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position sticky</title>
+  <style>
+    .sticky-container{
+      width: 200px;
+      height: 250px;
+      border: 2px solid black;
+      overflow: scroll;/*дозволяє прокручувати текст в цьому блоці(секції)*/
+
+    }
+    .header{
+      width: 100%;
+      height: 15%;
+      background-color: #6fd51c;
+      position: sticky;
+      top: 0;/*якщо не вказати цей параметр тоді ,,sticky,, не застосується*/
+    }
+  </style>
+</head>
+<body>
+<div class="sticky-container">
+  <div class="header"></div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, cupiditate iste nesciunt pariatur porro tempora voluptatibus. Accusantium aut dolores est eum fugit harum illum in inventore ipsa, ipsam laboriosam magnam modi nam natus necessitatibus obcaecati odit optio pariatur perferendis perspiciatis quae quia quisquam quo, reprehenderit sapiente, ullam vel! Aliquam aspernatur at autem cum dolor doloribus hic inventore iste iusto laboriosam magnam, nobis officia omnis possimus, quo suscipit totam unde, voluptas.</p>
+</div>
+</body>
+</html>
