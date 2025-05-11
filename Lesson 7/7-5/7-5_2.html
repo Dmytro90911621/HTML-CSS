@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Абсолютне+відносне</title>
+    <style>
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 100px;
+    }
+    .block{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    position: relative;/*тільки з ним позиціонуванням зможемо переміщати інший блок відносно цього блоку*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    .small{
+    width: 70px;
+    height: 55px;
+    background-color: red;
+    position: absolute;
+    top: -20px;
+        border-radius: 25px 25px 0 0;
+    }
+    .next{
+        width: 70px;
+        height: 55px;
+        background-color: red;
+        position: absolute;
+        bottom:  -20px;
+        border-radius: 0 0 25px 25px;
+    }
+    </style>
+</head>
+<body>
+<div class="block">
+    <div class="small"></div>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <div class="next"></div>
+</div>
+</body>
+</html>
