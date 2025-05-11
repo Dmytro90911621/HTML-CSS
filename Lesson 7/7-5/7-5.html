@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Абсолютне+відносне</title>
+  <style>
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      gap: 100px;
+    }
+    .block{
+      width: 250px;
+      height: 300px;
+      background-color: red;
+      position: relative;/*тільки з ним позиціонуванням зможемо переміщати інший блок відносно цього блоку*/
+    }
+    .small{
+      width: 70px;
+      height: 55px;
+      background-color: blue;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+    }
+  </style>
+</head>
+<body>
+<div class="block">
+  <div class="small"></div>
+</div>
+<div class="block">
+  <div class="small"></div>
+</div>
+<div class="block">
+  <div class="small"></div>
+</div>
+</body>
+</html>
