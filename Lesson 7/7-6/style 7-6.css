@@ -34,6 +34,8 @@ h2{
     gap: 15px;
     font-family: 'Inter',sans-serif;
     font-size: 20px;
+    position: relative;
+    border-radius: 25px;
 }
 .box_center{
     width: 245px;
@@ -45,6 +47,7 @@ h2{
     gap: 15px;
     font-family: 'Inter',sans-serif;
     font-size: 20px;
+    border-radius: 25px;
 }
 .box_end{
     width: 245px;
@@ -56,4 +59,10 @@ h2{
     gap: 15px;
     font-family: 'Inter',sans-serif;
     font-size: 20px;
+    position: relative;
+    border-radius: 25px;
+}
+.image{
+    position: absolute;
+    top: -30px;
 }
