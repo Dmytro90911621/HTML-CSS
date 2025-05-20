@@ -29,20 +29,16 @@ ul{
     gap: 65px;
 }
 h3{
-    color: #E5E5E5;
+    color: rgb(198, 196, 196);
     font-family: Inter, sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
-li{
-    color: rgba(255, 255, 255, 1);
+li>a{
+    color: rgb(198, 196, 196);
     font-family: Inter, sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     top:51px;
 }
 
@@ -61,8 +57,9 @@ li{
     flex-direction: column;
     gap: 32px;
 
-}.one{
-     color: var(-1, #8E88C1);
+}
+.one{
+     color: var(--1, #8E88C1);
      font-family: Inter, sans-serif;
      font-size: 16px;
      font-style: normal;
@@ -90,6 +87,13 @@ li{
      flex-shrink: 0;
      border-radius: 8px;
      background: #3F50E7;
+     color: white;
+     text-align: center;
+     font-family: Inter, sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
 
      /* 1 */
      box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
@@ -254,6 +258,7 @@ h4{
     flex-shrink: 0;
     background-color: #071341;
 
+
 }
 .square>div>p{
     width: 178px;
@@ -267,4 +272,28 @@ h4{
     letter-spacing: 0.8px;
     margin-bottom: 15px;
 }
-
+iframe{
+    width: 1400px;
+    height: 664px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 253px;
+}
+footer{
+    width: 1400px;
+    height: 94px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #071341;
+    margin:0 auto;
+}
+footer>p{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
