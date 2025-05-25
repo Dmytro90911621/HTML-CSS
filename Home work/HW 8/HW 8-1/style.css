@@ -17,7 +17,7 @@
     width: 372px;
 
 }
-h1{
+h4{
     flex: 1 0 0;
     color: var(--Text-txt-primary, #000);
     text-align: center;
