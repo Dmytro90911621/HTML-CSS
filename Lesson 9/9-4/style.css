@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+.child{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas:
+      "header header header"
+      "left main right"
+      "footer footer footer"
+}
+header{
+    grid-area: header;
+    background-color: #a7c5a7;
+}
+.left{
+    grid-area: left;
+    background-color: black;
+}
+
+main{
+    grid-area: main;
+    background-color: #d000ff;
+}
+footer{
+    grid-area: footer;
+    background-color: #73ff00;
+}
+.right{
+    grid-area: right;
+    background: #1aaeae;
+}
