@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.three{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 40% 40% 10% 10%;
+    grid-template-areas:
+      "start nov left_one"
+      "start nov left_two"
+      "footer footer footer"
+      "footer footer footer"
+}
+.start{
+    grid-area: start;
+    background: #A4A4A4;
+}
+.nov{
+    grid-area: nov;
+    background: #C1C1C1;
+}
+.left_one{
+    grid-area: left_one;
+    background: #7F7A7A;
+}
+.left_two{
+    grid-area: left_two;
+    background: #6B6161;
+}
+
+footer{
+    grid-area: footer;
+    background: #D9D9D9;
+}
